@@ -1,0 +1,83 @@
+body{
+    margin: 30px;
+}
+header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px;
+    border-color: black;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    width: 300px;
+    height: 25px;
+}
+
+#search-input {
+    width: 80%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+}
+
+#search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header-img{
+    width: 120px;
+}
+
+.dream-home-txt {
+    font-size: 45px;
+    font-weight: 600;
+    width: 300px;
+    margin-top: 80px;
+    height: 200px;
+}
+
+.home-image {
+    width: 650px;
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    border-radius: 10px;
+}
+
+.happy-family-img {
+    width: 400px;
+    position: absolute;
+    right: 380px;
+    top: 240px
+}
+
+.explore-search-txt {
+    width: 400px;
+}
